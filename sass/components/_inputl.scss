@@ -1,0 +1,72 @@
+.input {
+  width: 448px;
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  display: flex;
+
+  &__email {
+    display: inline;
+    width: 358px;
+    height: 50px;
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background-color: #2f303a;
+    padding-left: 16px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: rgba(255, 255, 255, 0.6);
+    outline: none;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: transform, border, background-color;
+    margin-right: 8px;
+    &:hover {
+      border: 1px solid var(--main-underline-color);
+      background-color: #ffffff;
+    }
+    &:focus {
+      border: 1px solid var(--main-underline-color);
+      background-color: #ffffff;
+    }
+  }
+
+  &__comment {
+    width: 448px;
+    height: 120px;
+    padding: 12px 16px;
+    border-radius: 4px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    display: flex;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.01em;
+    color: rgba(117, 117, 117, 0.5);
+    resize: none;
+    outline: none;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: transform, color, border;
+    margin-bottom: 10px;
+    margin-top: 4px;
+    &_comment:hover {
+      border: 1px solid var(--main-underline-color);
+      color: var(--main-text-color);
+    }
+    &_comment:focus {
+      border: 1px solid var(--main-underline-color);
+      color: var(--main-text-color);
+    }
+  }
+}
+
+input:focus + svg {
+  background-color: var(--main-underline-color);
+  fill: var(--main-font-color);
+  cursor: pointer;
+}
+
+Input:checked {
+  background-color: var(--main-underline-color);
+  fill: var(--main-font-color);
+  cursor: pointer;
+}

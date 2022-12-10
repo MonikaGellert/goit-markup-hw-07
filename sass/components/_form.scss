@@ -1,0 +1,17 @@
+.form {
+  margin-left: 40px;
+  margin-right: 40px;
+  &__label {
+    width: 448px;
+    height: 58px;
+    margin-bottom: 10px;
+    display: flex;
+  }
+}
+
+.comment {
+  width: 448px;
+  height: 138px;
+  resize: none;
+  outline: none;
+}
