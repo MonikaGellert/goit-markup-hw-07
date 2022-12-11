@@ -55,8 +55,10 @@
     gap: 10px;
   }
 }
-.footer__social-icon:hover svg:hover svg,
-.focus__social-icon:focus-within svg {
+.footer__social-icon:hover,
+.icon__social:hover,
+.focus__social-icon:focus-within,
+.icon__social:focus {
   border-radius: 50%;
   background-size: contain;
   background-position: center;

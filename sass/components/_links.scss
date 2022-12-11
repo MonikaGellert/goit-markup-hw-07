@@ -40,3 +40,15 @@
     fill: var(--main-underline-color);
   }
 }
+.link:hover,
+.link_2:hover,
+.link:focus,
+.link_2:focus,
+.nav_link:hover,
+.icon_envelope:focus,
+.icon_envelope:hover,
+.icon_smartphone:hover,
+.icon_smartphone:focus {
+  color: var(--main-underline-color);
+  fill: var(--main-underline-color);
+}
