@@ -771,14 +771,9 @@ figure {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: color, fill;
 }
-.footer__social--box {
-  display: inline-block;
-  flex-direction: row;
-  height: 44px;
-  gap: 10px;
-}
-.footer__social-icon:hover svg,
-.footer__social-icon:focus-within svg {
+
+.footer__social-icon:hover + svg,
+.footer__social-icon:focus-within + svg {
   border-radius: 50%;
   background-size: contain;
   background-position: center;
@@ -787,6 +782,12 @@ figure {
   fill: white;
   transition: 0.3s;
   cursor: pointer;
+}
+.footer__social--box {
+  display: inline-block;
+  flex-direction: row;
+  height: 44px;
+  gap: 10px;
 }
 .footer__flex {
   display: flex;
@@ -995,18 +996,6 @@ figure {
   padding-bottom: 50px;
   display: flex;
 }
-.footer__media {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--main-font-color-color);
-  margin-bottom: 0px;
-  display: flex;
-}
 
 .underline {
   text-decoration: none;
@@ -1097,39 +1086,12 @@ figure {
 .flex {
   display: flex;
 }
-.footer__social-icon {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 44px;
-  height: 44px;
-  gap: 10px;
-  border-radius: 50%;
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-color: rgba(255, 255, 255, 0.1);
-  fill: white;
-  transition: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: color, fill;
-}
+
 .footer__social--box {
   display: inline-block;
   flex-direction: row;
   height: 44px;
   gap: 10px;
-}
-.footer__social-icon:hover svg,
-.footer__social-icon:focus-within svg {
-  border-radius: 50%;
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-color: var(--main-underline-color);
-  fill: white;
-  transition: 0.3s;
-  cursor: pointer;
 }
 
 .project__box {
