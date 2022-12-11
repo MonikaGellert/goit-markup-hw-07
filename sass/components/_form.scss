@@ -1,12 +1,13 @@
 .form {
   margin-left: 40px;
   margin-right: 40px;
-}
-.form__label {
-  width: 448px;
-  height: 58px;
-  margin-bottom: 10px;
-  display: flex;
+
+  &__label {
+    width: 448px;
+    height: 58px;
+    margin-bottom: 10px;
+    display: flex;
+  }
 }
 
 .comment {
@@ -91,10 +92,7 @@
   margin-bottom: 10px;
   margin-top: 4px;
 }
-.label__comment:hover {
-  border: 1px solid var(--main-underline-color);
-  color: var(--main-text-color);
-}
+.label__comment:hover,
 .label__comment:focus {
   border: 1px solid var(--main-underline-color);
   color: var(--main-text-color);

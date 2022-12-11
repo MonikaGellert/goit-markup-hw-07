@@ -4,16 +4,16 @@
   margin-top: 25px;
   position: relative;
   cursor: pointer;
-}
-.agreement__text {
-  display: flex;
-  position: absolute;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
-  letter-spacing: 0.03em;
-  color: var(--main-text-color);
-  margin-left: 25px;
+  &__text {
+    display: flex;
+    position: absolute;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: var(--main-text-color);
+    margin-left: 25px;
+  }
 }
 .agreement__text a {
   color: var(--main-underline-color);
