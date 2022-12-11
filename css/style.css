@@ -908,7 +908,6 @@ figure {
 .img {
   display: flex;
   flex-wrap: wrap;
-  gap: calc(10% / 3);
   margin: 0 auto;
   justify-content: space-between;
 }
@@ -1028,7 +1027,6 @@ figure {
 
 .img__padding {
   padding-bottom: 30px;
-  gap: calc((100%- (3 * 30px)) / 3);
 }
 address {
   font-style: normal;
