@@ -55,8 +55,8 @@
   height: 44px;
   gap: 10px;
 }
-.footer:hover + svg,
-.focus-within + svg {
+.footer__social-icon:hover svg:hover svg,
+.focus__social-icon:focus-within svg {
   border-radius: 50%;
   background-size: contain;
   background-position: center;
