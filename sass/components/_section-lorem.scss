@@ -1,3 +1,18 @@
+.lorem {
+  display: flex;
+  background-color: #ffffff;
+
+  &.__p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color);
+    margin-bottom: 0px;
+    padding-left: 24px;
+  }
+}
+
 .lorem__icon-box {
   width: 270px;
   height: 120px;
@@ -9,4 +24,13 @@
 
 .text_font {
   text-align: center;
+}
+.lorem__h4 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+  background-color: #ffffff;
+  padding-left: 24px;
 }

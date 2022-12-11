@@ -21,9 +21,10 @@
 .sign-in {
   display: flex;
   flex-direction: row;
-  &-text {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 24px;
-  }
+}
+
+.sign__text {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 24px;
 }
